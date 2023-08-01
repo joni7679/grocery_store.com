@@ -31,7 +31,7 @@ html {
     padding: 10px 15px;
     background: white;
     color: black;
-    border: 1px solid var(--green);
+    border: 1.3px solid black;
     border-radius: 5px;
     outline: none;
 
@@ -40,6 +40,7 @@ html {
 .btn:hover {
     background: var(--green);
     color: white;
+    border: none;
     transition: all 2s liner;
 
 }
@@ -120,7 +121,7 @@ body {
     height: 35px;
     line-height: 35px;
     border-radius: 5px;
-    background: #d9d8d8;
+    background: #eee;
     text-align: center;
     cursor: pointer;
     transition: 2s;
@@ -284,7 +285,7 @@ body {
     width: 100%;
     padding: 6px;
     border-radius: 5px;
-    background: var(--light-gray);
+    background: #eee;
     outline: none;
     border: none;
     border: 1px solid gray;
@@ -589,7 +590,7 @@ width: 200px;}*/
 }
 
 .our_review_section .reviews .review-box {
-    width: 300px;
+    width: 350px;
     background: #fff;
     padding: 30px 12px;
 
@@ -770,11 +771,15 @@ width: 200px;}*/
 .fotter-content .input {
     padding: 7px;
     border-radius: 5px;
-    background: #ebe5e5;
+    background: #eee;
     ;
     border: 1px solid gray;
     outline: none;
     margin-bottom: 16px;
+}
+
+.fotter-content a {
+    text-align: center;
 }
 
 .sub-link {
@@ -786,7 +791,23 @@ width: 200px;}*/
 
 
 /*media query code*/
-@media (max-width:904px) {
+
+@media (max-width:1025px) {
+    .products .product_box {
+        margin: 0 auto;
+    }
+
+    .catgories_box {
+
+        margin: 0 auto;
+    }
+
+    .our_review_section .reviews .review-box {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:945px) {
 
     #menu_btn {
         display: block;
@@ -815,6 +836,23 @@ width: 200px;}*/
 
     }
 
+    .products .product_box {
+        margin: 0 auto;
+    }
+
+    .catgories {
+        /* margin: 0 auto; */
+    }
+
+    .catgories_box {
+
+        margin: 0 auto;
+    }
+
+    .our_review_section .reviews .review-box {
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -835,6 +873,20 @@ width: 200px;}*/
         margin: 0 auto;
     }
 
+    .catgories_box {
+
+        margin: 0 auto;
+    }
+
+    .our_review_section .reviews .review-box {
+        margin: 0 auto;
+    }
+
+    .blogs {
+        flex-direction: column;
+
+    }
+
     .fotter {
         margin: 15px auto;
         flex-direction: column;
@@ -846,15 +898,20 @@ width: 200px;}*/
     }
 
 
+}
 
+@media (max-width:385px) {
+    .logo a {
+        font-size: 15pxg;
+    }
 
+    .products .product_box {
+        width: 230px !important;
 
+    }
 
-
-
-
-
-
-
+    .our_review_section .reviews .review-box {
+        width: 250px !important;
+    }
 
 }

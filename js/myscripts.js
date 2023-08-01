@@ -169,6 +169,20 @@ $('.catgories_silder').slick({
             }
         },
         {
+            breakpoint: 750,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
@@ -199,11 +213,11 @@ $('.review-silder').slick({
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 783,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
