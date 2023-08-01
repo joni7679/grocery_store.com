@@ -27,6 +27,10 @@ html {
 
 }
 
+#bg {
+    display: none;
+}
+
 .btn {
     padding: 10px 15px;
     background: white;
@@ -900,7 +904,7 @@ width: 200px;}*/
 
 }
 
-@media (max-width:385px) {
+@media (max-width:397px) {
     .logo a {
         font-size: 15pxg;
     }
