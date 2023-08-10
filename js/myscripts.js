@@ -158,7 +158,7 @@ $('.catgories_silder').slick({
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
