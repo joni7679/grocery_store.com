@@ -69,14 +69,14 @@ $('.product_silder').slick({
     autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrow: false,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
             }
@@ -109,14 +109,14 @@ $('.product_silder-1').slick({
     autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrow: false,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true
             }
@@ -149,14 +149,14 @@ $('.catgories_silder').slick({
     autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     arrow: false,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false
             }
@@ -204,14 +204,14 @@ $('.review-silder').slick({
     autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     arrow: false,
     responsive: [
         {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false
             }
